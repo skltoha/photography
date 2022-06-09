@@ -21,7 +21,7 @@ img {
 header {
   position: absolute;
   width: 100%;
-  top: 40px;
+  top: 30px;
   left: 0%;
   z-index: 1;
 }
@@ -74,8 +74,8 @@ header {
 .socail-area {
   position: absolute;
   z-index: 2;
-  right: 2%;
-  bottom: 2%;
+  right: 10px;
+  bottom: 10px;
 }
 
 .socail-area ul {
