@@ -25,10 +25,12 @@ header {
   left: 0%;
   z-index: 1;
 }
-
+.main-logo {
+}
 .menu-bar {
 }
-
+.menu-item {
+}
 .menu-bar ul {
   list-style: none;
   padding: 0;
@@ -45,6 +47,12 @@ header {
   text-transform: uppercase;
   color: #fff;
   display: block;
+}
+.mobile-menu {
+  display: none;
+}
+.mobile-menu span {
+  color: #fff;
 }
 
 body {
