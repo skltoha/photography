@@ -62,6 +62,6 @@
   }
   .about-user{
     width: max(300px, 60%);
-    height: max(250px, 40%);
+    height: max(80%, 40%);
     background-color: rgba(0, 0, 0, 0.5);
   }
