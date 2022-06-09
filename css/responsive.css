@@ -1,0 +1,15 @@
+@media (max-width:  600px){
+.logo{
+position: absolute;
+top: -20px;
+left: 50%;
+transform: translate(-50%, 0);
+text-align: center;
+}
+.logo img{
+    width: 60%;
+}
+ .menu-bar{
+     display: none;
+ }
+}
