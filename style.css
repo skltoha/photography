@@ -65,8 +65,11 @@ header {
   text-transform: capitalize;
   text-shadow: 0px 0px 5px rgba(0, 0, 0, 1), 5px 5px 10px rgba(255, 255, 255, 0.3);
 }
-.hero-area p{
-  width: 200px;
+.hero-area p {
+  width: 300px;
+  color: #fff;
+  line-height: 14px;
+  font-size: 12px;
 }
 .socail-area {
   position: absolute;
@@ -103,4 +106,3 @@ header {
   color: #ff0000;
   text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
 }
-
