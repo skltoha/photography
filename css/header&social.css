@@ -24,7 +24,7 @@ header {
   z-index: 1;
   position: fixed;
 }
-.header-background{
+.header-background {
   background-color: #413d3d7a;
 }
 .main-logo {
@@ -41,15 +41,16 @@ header {
 }
 
 .menu-bar ul li {
+  padding: 0px 20px;
 }
 
 .menu-bar ul li a {
   text-decoration: none;
-  padding: 0px 20px;
   text-transform: uppercase;
   color: #fff;
   display: block;
 }
+
 .mobile-menu {
   display: none;
 }
