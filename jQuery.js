@@ -22,4 +22,17 @@ if (windowsize > 557){
 
 });
 
+
+$(window).scroll(function(){
+
+    var windowhight = $(window).scrollTop();
+    
+    if (windowhight > 100){
+    $('header').addClass('header-background');
+    }
+    else {
+        $('header').removeClass('header-background');
+    }
+    });
+
 }) (jQuery);
