@@ -94,7 +94,10 @@ header {
 }
 
 /* body */
-body {
+
+.hero-area {
+  position: relative;
+  padding: 30vh 0px 10px 0px;
   height: 100vh;
   width: 100vw;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url(images/home_page1.jpg);
@@ -102,10 +105,6 @@ body {
   background-position: center;
   background-size: cover;
   overflow: hidden;
-}
-.hero-area {
-  position: relative;
-  padding: 30vh 0px 10px 0px;
 }
 
 .hero-area h1 {
