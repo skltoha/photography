@@ -16,6 +16,28 @@ $('.mobile-menu-slide span').on('click', function(){
     $('.socail-area ul li a').addClass('social-icon-color-1');
 })
 
+// main page
+$('.hero-area').on('click', function(){
+    $('.mobile-menu-slide').fadeOut();
+    $('.socail-area ul li a').removeClass('social-icon-color-2');
+    $('.socail-area ul li a').addClass('social-icon-color-1');
+})
+
+// gallery page
+$('.gallery-body').on('click', function(){
+    $('.mobile-menu-slide').fadeOut();
+    $('.socail-area ul li a').removeClass('social-icon-color-2');
+    $('.socail-area ul li a').addClass('social-icon-color-1');
+})
+// about page
+$('.about-page-body').on('click', function(){
+    $('.mobile-menu-slide').fadeOut();
+    $('.socail-area ul li a').removeClass('social-icon-color-2');
+    $('.socail-area ul li a').addClass('social-icon-color-1');
+})
+
+
+
 $(window).resize(function(){
 
 var windowsize = $(window).width();
