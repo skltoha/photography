@@ -6,10 +6,14 @@
 
 $('.mobile-menu span').on('click', function(){
     $('.mobile-menu-slide').fadeIn();
+    $('.socail-area ul li a').removeClass('social-icon-color-1');
+    $('.socail-area ul li a').addClass('social-icon-color-2');
 })
 
 $('.mobile-menu-slide span').on('click', function(){
     $('.mobile-menu-slide').fadeOut();
+    $('.socail-area ul li a').removeClass('social-icon-color-2');
+    $('.socail-area ul li a').addClass('social-icon-color-1');
 })
 
 $(window).resize(function(){
@@ -18,6 +22,8 @@ var windowsize = $(window).width();
 
 if (windowsize > 557){
     $('.mobile-menu-slide').fadeOut();
+    $('.socail-area ul li a').removeClass('social-icon-color-2');
+    $('.socail-area ul li a').addClass('social-icon-color-1');
 }
 
 });
