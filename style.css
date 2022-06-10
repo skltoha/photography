@@ -32,7 +32,7 @@ img {
   overflow: hidden;
 }
 .hero-area h2 {
-  font-size: max(3vw, 25px);
+  font-size: max(3vw, 26px);
   color: #fff;
   text-shadow: 0px 0px 5px rgba(0, 0, 0, 1), 5px 5px 10px rgba(255, 255, 255, 0.3);
 }

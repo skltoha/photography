@@ -64,7 +64,7 @@ header {
   width: 200px;
   height: 100vh;
   background-color: #fff;
-  position: absolute;
+  position: fixed;
   top: 0%;
   right: 0%;
   z-index: 2;
