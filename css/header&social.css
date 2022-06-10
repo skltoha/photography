@@ -68,7 +68,6 @@ header {
 .mobile-menu span {
   color: #fff;
 }
-
 /* mobile menu  */
 .mobile-menu-slide {
   width: 170px;
@@ -134,17 +133,19 @@ header {
 }
 .socail-area ul li:nth-child(1):hover a {
   color: #0571e6;
-  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
 }
 .socail-area ul li:nth-child(2):hover a {
-  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+  color: #fff;
+  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
 }
 .socail-area ul li:nth-child(3):hover a {
-  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+  color: #fff;
+  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
 }
 .socail-area ul li:nth-child(4):hover a {
   color: #ff0000;
-  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
 }
 .social-icon-color-1 {
   color: rgb(255, 255, 255);
