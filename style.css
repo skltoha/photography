@@ -126,7 +126,7 @@ header {
   margin-top: 20px;
 }
 .socail-area {
-  position: absolute;
+  position: fixed;
   z-index: 2;
   right: 10px;
   bottom: 10px;
