@@ -12,12 +12,10 @@ h6 {
   margin: 0;
   padding: 0;
 }
-
 img {
   max-width: 100%;
   height: auto;
 }
-
 header {
   width: 100%;
   left: 0%;
@@ -40,18 +38,15 @@ header {
   margin: 0;
   display: flex;
 }
-
 .menu-bar ul li {
   padding: 0px 20px;
 }
-
 .menu-bar ul li a {
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
   display: block;
 }
-
 .mobile-menu {
   display: none;
 }
@@ -105,21 +100,18 @@ header {
   right: 10px;
   bottom: 10px;
 }
-
 .socail-area ul {
   margin: 0;
   padding: 0;
   display: flex;
   list-style: none;
 }
-
 .socail-area ul li {
   margin-left: 20px;
 }
 .socail-area ul li a {
   font-size: 20px;
 }
-
 .socail-area ul li:nth-child(1):hover a {
   color: #0571e6;
   text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
@@ -134,10 +126,9 @@ header {
   color: #ff0000;
   text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
 }
-
-.social-icon-color-1{
+.social-icon-color-1 {
   color: rgb(255, 255, 255);
 }
-.social-icon-color-2{
+.social-icon-color-2 {
   color: black;
 }
