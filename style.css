@@ -45,5 +45,5 @@ img {
   width: max(50%, 300px);
   color: #fff;
   font-size: max(1vw, 12px);
-  margin-top: 20px;
+  margin-top: min(1vw, 20px);
 }
