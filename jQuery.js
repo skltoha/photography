@@ -12,7 +12,14 @@ $('.mobile-menu-slide span').on('click', function(){
     $('.mobile-menu-slide').fadeOut();
 })
 
+$(window).resize(function(){
 
+var windowsize = $(window).width();
 
+if (windowsize > 557){
+    $('.mobile-menu-slide').fadeOut();
+}
+
+});
 
 }) (jQuery);
