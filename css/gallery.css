@@ -20,16 +20,24 @@ img {
 
 .gallery-body {
   width: 100%;
-  background-color: black;
-  padding: 100px 0px 0px;
+  background-color: #7A4B98;
+  padding: 100px 0px;
 }
-
+.content{
+  background-color: #7A4B98;
+  border: 1px solid;
+  margin-bottom: 10px;
+}
 .wallpaper{
-  width: 90%;
   aspect-ratio: 1/1;
   background-color: #fff;
+  margin: 10px;
 }
 .text{
   text-align: center;
   color: #fff;
+}
+.text h1{
+  margin: 0;
+  padding: 0;
 }
