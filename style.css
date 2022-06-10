@@ -18,14 +18,13 @@ img {
   height: auto;
 }
 
-
 /* body */
 
 .hero-area {
   position: relative;
   padding: 30vh 0px 10px 0px;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url(images/home_page1.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -39,7 +38,7 @@ img {
   text-transform: capitalize;
   text-shadow: 0px 0px 5px rgba(0, 0, 0, 1), 5px 5px 10px rgba(255, 255, 255, 0.3);
 }
-.hero-area h2{
+.hero-area h2 {
   font-size: max(3vw, 40px);
   color: #fff;
   text-transform: capitalize;

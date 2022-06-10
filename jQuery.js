@@ -27,7 +27,7 @@ $(window).scroll(function(){
 
     var windowhight = $(window).scrollTop();
     
-    if (windowhight > 100){
+    if (windowhight > 10){
     $('header').addClass('header-background');
     }
     else {
