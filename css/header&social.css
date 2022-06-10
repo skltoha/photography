@@ -46,6 +46,21 @@ header {
   text-transform: uppercase;
   color: #fff;
   display: block;
+  position: relative;
+}
+.menu-bar ul li a::after{
+  content: '';
+  display: block;
+  width: 0%;
+  height: 5px;
+  background-color: hsl(350, 68%, 40%);
+  position: absolute;
+  top: 100%;
+  left: 0%;
+  transition: 0.3s;
+}
+.menu-bar ul li a:hover::after{
+  width: 100%;
 }
 .mobile-menu {
   display: none;
@@ -94,7 +109,11 @@ header {
   color: black;
   text-transform: capitalize;
 }
-
+.mobile-menu-bar ul li a:hover{
+  border: 1px solid #fff;
+  border-radius: 3px;
+  background-color: #fff;
+}
 /* social area start */
 .socail-area {
   position: fixed;
