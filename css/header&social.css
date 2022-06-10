@@ -23,6 +23,7 @@ header {
   left: 0%;
   z-index: 1;
   position: fixed;
+  padding: 10px 0px;
 }
 .header-background {
   background-color: #413d3d7a;
