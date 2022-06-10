@@ -85,9 +85,11 @@ header {
   list-style: none;
 }
 .mobile-menu-bar ul li{
-  padding: 10px 0px;
+
 }
 .mobile-menu-bar ul li a{
+  padding: 5px 0px;
+  display: block;
   text-decoration: none;
   color: black;
   text-transform: capitalize;
@@ -125,6 +127,8 @@ header {
   font-size: max(1vw, 12px);
   margin-top: 20px;
 }
+
+/* social area start */
 .socail-area {
   position: fixed;
   z-index: 2;
