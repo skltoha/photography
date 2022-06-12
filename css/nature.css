@@ -5,24 +5,23 @@ img {
   padding: 100px 0px;
   background-color: rgb(1, 37, 25);
 }
-.section1 {
+.nature-section {
   margin-bottom: 5px;
 }
-.wallpaper {
-  max-width: 50%;
-}
+
 .text {
-  width: 50%;
-  margin: auto;
-  text-align: center;
+  width: 60%;
 }
 .text h1 {
   color: aliceblue;
   text-transform: capitalize;
+  margin-bottom: 5px;
 }
-.text h3 {
+.text p {
   color: aliceblue;
   text-transform: capitalize;
+  font-size: 12px;
+  line-height: 14px;
 }
 
 .bottom-section {

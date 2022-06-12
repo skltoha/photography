@@ -22,6 +22,21 @@
     display: block;
     padding-right: 40px;
   }
+  /* nature page */
+  .nature-section {
+    position: relative;
+  }
+  .nature-section .text-area .text {
+  }
+  .nature-section .wallpaper {
+    max-width: 100%;
+  }
+  .nature-section .text-area {
+    position: absolute;
+    z-index: 1;
+    bottom: 10px;
+    left: 10px;
+  }
 }
 
 @media (min-width: 557px) {
@@ -41,5 +56,21 @@
   }
   header .mobile-menu {
     display: none;
+  }
+  /* nature page */
+  .nature-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nature-section .text-area .text {
+    margin: auto;
+    text-align: center;
+  }
+  .nature-section .wallpaper {
+    max-width: 49%;
+  }
+  .nature-section .text-area {
+    width: 49%;
   }
 }
