@@ -33,14 +33,13 @@ img {
   opacity: 1;
 }
 .content:hover .text {
-bottom: 0%;
+  bottom: 0%;
 }
 .wallpaper {
   aspect-ratio: 1/1;
   background-color: #fff;
   margin: 10px;
   overflow: hidden;
-
 }
 .wallpaper img {
   min-width: 150%;
@@ -55,12 +54,12 @@ bottom: 0%;
   background-color: #7a4b989c;
   width: 100%;
   height: 20%;
-  transition: .3s;
+  transition: 0.3s;
 }
 .text a {
   margin: 0;
   padding: 0;
-  text-decoration: none;
+  text-decoration: underline;
   color: rgb(255, 255, 255);
   font-size: 20px;
   cursor: pointer;
