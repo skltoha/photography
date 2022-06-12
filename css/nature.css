@@ -1,0 +1,32 @@
+img {
+  max-width: 100%;
+}
+.nature-wallpaper {
+  padding: 100px 0px;
+  background-color: rgb(1, 37, 25);
+}
+.section1 {
+  margin-bottom: 5px;
+}
+.wallpaper {
+  max-width: 50%;
+}
+.text {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+.text h1 {
+  color: aliceblue;
+  text-transform: capitalize;
+}
+.text h3 {
+    color: aliceblue;
+    text-transform: capitalize;
+  }
+  
+.bottom-section {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(82, 124, 95);
+}
