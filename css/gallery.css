@@ -19,30 +19,30 @@ img {
 .gallery-body {
   width: 100%;
   min-height: 100vh;
-  background-color: #7A4B98;
+  background-color: #7a4b98;
   padding: 100px 0px;
 }
-.content{
-  background-color: #7A4B98;
+.content {
+  background-color: #7a4b98;
   border: 1px solid;
   margin-bottom: 10px;
 }
 
-.wallpaper{
+.wallpaper {
   aspect-ratio: 1/1;
   background-color: #fff;
   margin: 10px;
   overflow: hidden;
 }
-.wallpaper img{
+.wallpaper img {
   min-width: 150%;
-  opacity: .7;
+  opacity: 0.7;
 }
-.text{
+.text {
   text-align: center;
   color: #fff;
 }
-.text a{
+.text a {
   margin: 0;
   padding: 0;
   text-decoration: none;
