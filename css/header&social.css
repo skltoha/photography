@@ -115,6 +115,7 @@ header {
   appearance: none;
   /* background-image: linear-gradient(rgb(72, 206, 83), rgb(238, 134, 134), rgb(52, 180, 148)); */
   background-color: #fff;
+  color: #000;
 }
 /* social area start */
 .socail-area {
