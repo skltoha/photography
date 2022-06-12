@@ -28,8 +28,16 @@
     $(".socail-area ul li a").removeClass("social-icon-color-2");
     $(".socail-area ul li a").addClass("social-icon-color-1");
   });
+  
   // about page
   $(".about-page-body").on("click", function () {
+    $(".mobile-menu-slide").fadeOut();
+    $(".socail-area ul li a").removeClass("social-icon-color-2");
+    $(".socail-area ul li a").addClass("social-icon-color-1");
+  });
+
+  // Nature page
+  $(".nature-wallpaper").on("click", function () {
     $(".mobile-menu-slide").fadeOut();
     $(".socail-area ul li a").removeClass("social-icon-color-2");
     $(".socail-area ul li a").addClass("social-icon-color-1");
