@@ -84,9 +84,11 @@
     text-align: center;
   }
   .nature-section .wallpaper {
-    max-width: 49%;
+    width: 49%;
+    aspect-ratio: 1.500924214417745 / 1;
   }
   .nature-section .text-area {
     width: 49%;
+    aspect-ratio: 1.500924214417745 / 1;
   }
 }
