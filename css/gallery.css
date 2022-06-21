@@ -7,6 +7,7 @@ img {
 .nature-wallpaper {
   padding: 100px 0px;
   background-color: rgb(1, 37, 25);
+
 }
 .nature-section {
 }
@@ -30,6 +31,6 @@ img {
 
 .bottom-section {
   width: 100%;
-  height: 100px;
+  height: 10px;
   background-color: rgb(82, 124, 95);
 }
